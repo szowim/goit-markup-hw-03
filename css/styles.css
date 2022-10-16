@@ -192,7 +192,6 @@ ul {
 	width: 270px;
 	left: 215px;
 	top: 774px;
-	border-radius: nullpx;
 }
 .opis_p {
 	display: flex;
@@ -203,7 +202,6 @@ ul {
 .opis-flex {
 	width: 270px;
 	height: 96px;
-	padding: auto;
 }
 .portfolio_h3 {
 	display: flex;
@@ -289,7 +287,6 @@ ul {
 }
 .footer {
 	display: flex;
-	align-items: left;
 	width: auto;
 	padding: 40px;
 	flex-flow: column;
@@ -302,8 +299,7 @@ ul {
 	justify-content: space-between;
 	flex-direction: row;
 	padding: 32px 10%;
-	border-bottom: 1px solid #ECECEC;
-	;
+	border-bottom: 1px solid #ececec;
 }
 .nav-wrapper {
 	display: flex;
@@ -316,16 +312,14 @@ ul {
 .button_list {
 	display: flex;
 	list-style: none;
-	justify-content:center;
+	justify-content: center;
 	padding-top: 126px;
 	padding-bottom: 50px;
-	
 }
 .button-list-portfolio {
 	display: flex;
 	list-style: none;
-	justify-content:center;
-	padding-top:94px;
+	justify-content: center;
+	padding-top: 94px;
 	padding-bottom: 50px;
-	
 }
