@@ -137,8 +137,6 @@ ul {
 	color: #ffffff;
 	justify-content: center;
 	margin: 0;
-
-	
 }
 
 .button-index {
@@ -202,6 +200,9 @@ ul {
 	width: 270px;
 	height: 96px;
 }
+.opis-li {
+	flex-basis: calc((100% - 90px)/4);
+}
 .portfolio_h3 {
 	display: flex;
 	font-size: 18px;
@@ -228,7 +229,7 @@ ul {
 	font-size: 36px;
 	line-height: 1.17;
 	margin: 0;
-	padding-bottom: 50px;;
+	padding-bottom: 50px;
 }
 .image-list {
 	list-style-type: none;
@@ -237,32 +238,32 @@ ul {
 	gap: 30px;
 }
 .li-zajmujemy {
-	flex-basis: calc((100%-370px) / 2);
+	flex-basis: calc((100% - 60px)/2);
 }
 
 .person-section {
 	/* margin-top: 94px; */
-	padding-top:94px;
+	padding-top: 94px;
 }
 .person-list {
 	list-style-type: none;
 	display: flex;
 	justify-content: space-evenly;
 	padding: 50px 0 94px;
-	gap:30px;
+	gap: 30px;
 }
 .border {
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
 }
 .nasz-zespol {
-	padding-top:94px;
+	padding-top: 94px;
 	display: flex;
 	font-size: 36px;
 	line-height: 1.17;
 	text-align: center;
 	justify-content: center;
-	margin:0;
+	margin: 0;
 }
 .nasz-zespol_h3 {
 	font-size: 16px;
@@ -285,8 +286,8 @@ ul {
 .opis_p {
 	margin: 0;
 }
-.flex-basic-zespol{
-	flex-basis: calc((100%-260px)/4);
+.flex-basic-zespol {
+	flex-basis: calc((100% - 120px) / 4);
 }
 
 .portfolio-list {
@@ -298,7 +299,6 @@ ul {
 	/* align-content: space-evenly; */
 	/* max-width: 1200px; */
 	padding-bottom: 94px;
-	
 }
 .person-background {
 	background-color: #f5f4fa;
@@ -306,7 +306,7 @@ ul {
 .li-portfolio {
 	border: 1px solid #eeeeee;
 	margin-top: 30px;
-	flex-basis: calc((100% - 60 px) / 3);
+	flex-basis: calc((100% - 60px) / 3);
 }
 .footer {
 	display: flex;
@@ -337,7 +337,6 @@ ul {
 	display: flex;
 	list-style: none;
 	justify-content: center;
-	
 }
 .button-list-portfolio {
 	display: flex;
