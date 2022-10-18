@@ -201,7 +201,7 @@ ul {
 	height: 96px;
 }
 .opis-li {
-	flex-basis: calc((100% - 90px)/4);
+	flex-basis: calc((100% - 90px) / 4);
 }
 .portfolio_h3 {
 	display: flex;
@@ -238,7 +238,7 @@ ul {
 	gap: 30px;
 }
 .li-zajmujemy {
-	flex-basis: calc((100% - 60px)/2);
+	flex-basis: calc((100% - 60px) / 2);
 }
 
 .person-section {
