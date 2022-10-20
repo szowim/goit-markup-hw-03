@@ -298,14 +298,10 @@ ul {
 	list-style-type: none;
 	flex-flow: wrap;
 	justify-content: space-between;
-	padding: 30px;
 }
 
 .li-portfolio {
 	flex-basis: calc((100% - 60px) / 3);
-	justify-content: space-between;
-	gap: 30px;
-	padding-bottom: 94px;
 }
 
 .portfolio-div {
