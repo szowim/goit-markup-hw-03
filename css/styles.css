@@ -13,6 +13,7 @@ body {
 ul {
 	margin: 0;
 	padding: 0;
+	padding-inline-start: 0;
 }
 .container {
 	margin: 0 auto;
@@ -296,7 +297,8 @@ ul {
 	display: flex;
 	list-style-type: none;
 	flex-flow: wrap;
-	/* padding: 30px; */
+	justify-content: space-between;
+	padding: 30px;
 }
 
 .li-portfolio {
