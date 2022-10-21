@@ -298,6 +298,7 @@ ul {
 	list-style-type: none;
 	flex-flow: wrap;
 	justify-content: space-between;
+	gap: 30px;
 }
 
 .li-portfolio {
